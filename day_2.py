@@ -9,6 +9,8 @@ print('Hello'[-2])  #and here an 'l'
 print(123_453_567)
 
 
+# ***
+
 # num_char = len(input("What is your name?"))
 # # converting num_char into a string
 # new_num_char = str(num_char)
@@ -22,8 +24,22 @@ print(type(a))
 print(70 + float('100.5'))
 
 
+# ***
 
 two_digit_num = input("Type a two digit numbers: ")
 first_digit = two_digit_num[0]
 second_digit = two_digit_num[1]
 print(int(first_digit) + int(second_digit))
+
+
+
+# Exercise 2
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+new_height = float(height)
+new_weight = int(weight)
+result = int(new_weight/(new_height*new_height))
+print(result)
+
